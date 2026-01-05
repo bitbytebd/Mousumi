@@ -3,17 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package jan05;
+package collection.SET;
 
 /**
  *
  * @author Tultuli
  */
-public class Person {
+public class Employer {
     private int id;
     private String name;
-    private double salary;
+    private double capital;
 
+    Employer() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
     public int getId() {
         return id;
@@ -31,24 +34,23 @@ public class Person {
         this.name = name;
     }
 
-    public double getSalary() {
-        return salary;
+    public double getCapital() {
+        return capital;
     }
 
-    public void setSalary(double salary) {
-        this.salary = salary;
+    public void setCapital(double capital) {
+        this.capital = capital;
     }
 
-    public Person(int id, String name, double salary) {
+    public Employer(int id, String name, double capital) {
         this.id = id;
         this.name = name;
-        this.salary = salary;
+        this.capital = capital;
     }
 
-    
     @Override
     public String toString() {
-        return "Person{" + "id=" + id + ", name=" + name + ", salary=" + salary + '}';
+        return "Employer{" + "id=" + id + ", name=" + name + ", capital=" + capital + '}';
     }
     
     

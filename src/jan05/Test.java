@@ -18,6 +18,7 @@ public class Test {
         Person p2 = new Person(1002, "MR.B", 58500);
         Person p3 = new Person(1003, "MR.C", 65000);
 
+        
      List <Person> personList = new ArrayList<Person>();
             personList.add(p1);
             personList.add(p2);
@@ -26,7 +27,7 @@ public class Test {
             
              
              
-           System.out.println(personList);
+       System.out.println(personList);
           
          for(Person obj : personList){
                System.out.println(obj);
