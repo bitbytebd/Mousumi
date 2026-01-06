@@ -3,16 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package empmgt.DAO;
+package jan06;
 
-import model.Employee;
+import java.util.Map;
 
 /**
  *
  * @author Tultuli
  */
-public class EmployeeDAO {
-    public Employee insert(Employee e){
-        return e;
-    }
+public interface Impl {
+    Map<Integer, Employee> getEmployees();
 }

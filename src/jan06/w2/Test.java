@@ -3,16 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package empmgt.DAO;
-
-import model.Employee;
+package jan06.w2;
 
 /**
  *
  * @author Tultuli
  */
-public class EmployeeDAO {
-    public Employee insert(Employee e){
-        return e;
+public class Test {
+ 
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 0;
+        int result = a / b;   // ArithmeticException
+        System.out.println(result);
     }
 }
+

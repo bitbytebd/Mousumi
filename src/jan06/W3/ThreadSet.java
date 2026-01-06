@@ -3,16 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package empmgt.DAO;
-
-import model.Employee;
-
+package jan06.W3;
+import java.util.*;
 /**
  *
  * @author Tultuli
  */
-public class EmployeeDAO {
-    public Employee insert(Employee e){
-        return e;
+public class ThreadSet extends Thread{
+
+    @Override
+    public void run() {
+        for(int i = 0; i < 5; i++){
+            System.out.println("THREAD CLASS");
+        }
     }
+    
 }
+
+
