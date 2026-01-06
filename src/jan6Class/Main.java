@@ -17,9 +17,9 @@ import java.util.Set;
  */
 public class Main {
     public static void main(String[] args) {
-       Impl service = new Employee();
 
-        Map<Integer, Employee> empMap = service.getEmployees();
+
+        Map<Integer, Employee> empMap = new Employee1().getEmployees();
 
         for (Map.Entry<Integer, Employee> entry : empMap.entrySet()) {
             System.out.println("KEY (ID): " + entry.getKey());
