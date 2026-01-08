@@ -12,8 +12,5 @@ import model.Employee;
  * @author Mousumi Akter
  */
 public class EmployeeController {
-    public Employee create(Employee e){
-        return null;
-    
-    }
+  
 }

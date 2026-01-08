@@ -18,6 +18,12 @@ public class Employee {
      private double salary;
      private int age; private String addr;
 
+    /**
+     *
+     */
+    public Employee(){
+     
+       }
     public Employee(int id, String lName, String fName, String desig, String dept, double salary, int age, String addr) {
         this.id = id;
         this.lName = lName;
