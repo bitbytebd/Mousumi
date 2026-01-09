@@ -98,6 +98,18 @@ public class Employee {
     public void setAddr(String addr) {
         this.addr = addr;
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" + "id=" + id +
+                ", lName=" + lName +
+                ", fName=" + fName + 
+                ", desig=" + desig +
+                ", dept=" + dept +
+                ", salary=" + salary +
+                ", age=" + age +
+                ", addr=" + addr + '}';
+    }
      
      
 }

@@ -1,0 +1,33 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package jan09.questions;
+
+/**
+ *
+ * @author Mousumi Akter
+ */
+public class QuestionsPractices { 
+    public static void main(String[] args) {
+        B b = new B();
+        b.printName();
+    }
+}
+    
+    class A{
+      public void printName(){
+          System.out.println("NAME - A");
+      }
+    }
+    
+    class B extends A{
+        
+     public void printName(){
+          System.out.println("NAME - B");
+      }
+     
+    }
+    
+
