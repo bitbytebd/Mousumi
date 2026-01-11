@@ -14,12 +14,14 @@ import java.util.stream.Stream;
  */
 public class Test {
     public static void main(String[] args) {
+        
         Person p1 = new Person(1001, "MR.A", 55000);
         Person p2 = new Person(1002, "MR.B", 58500);
         Person p3 = new Person(1003, "MR.C", 65000);
 
         
      List <Person> personList = new ArrayList<Person>();
+     
             personList.add(p1);
             personList.add(p2);
             personList.add(p3);
@@ -27,7 +29,7 @@ public class Test {
             
              
              
-       System.out.println(personList);
+//       System.out.println(personList);
           
          for(Person obj : personList){
                System.out.println(obj);
