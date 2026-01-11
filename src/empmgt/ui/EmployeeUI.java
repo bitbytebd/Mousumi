@@ -63,7 +63,6 @@ public class EmployeeUI extends javax.swing.JFrame {
 
         jLabel1.setText("ID");
 
-        _ID.setText("3884");
         _ID.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 _IDActionPerformed(evt);
@@ -81,7 +80,6 @@ public class EmployeeUI extends javax.swing.JFrame {
 
         jLabel3.setText("Lname");
 
-        _lname.setText("Mou");
         _lname.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 _lnameActionPerformed(evt);
@@ -90,7 +88,6 @@ public class EmployeeUI extends javax.swing.JFrame {
 
         jLabel4.setText("Fname");
 
-        _fname.setText("Mousumi");
         _fname.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 _fnameActionPerformed(evt);
@@ -99,7 +96,6 @@ public class EmployeeUI extends javax.swing.JFrame {
 
         jLabel5.setText("Desig");
 
-        _desig.setText("GM");
         _desig.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 _desigActionPerformed(evt);
@@ -108,24 +104,17 @@ public class EmployeeUI extends javax.swing.JFrame {
 
         jLabel6.setText("Dept");
 
-        _dept.setText("HR");
-
         jLabel7.setText("Salary");
-
-        _salary.setText("55633224");
 
         jLabel8.setText("Age");
 
         jLabel9.setText("Address");
 
-        _address.setText("12/C Tejgaon");
         _address.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 _addressActionPerformed(evt);
             }
         });
-
-        _age1.setText("29");
 
         a_age.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

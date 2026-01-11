@@ -162,12 +162,13 @@ public class StudentUI extends javax.swing.JFrame {
         StudentController sc = new StudentController();
         Student ss = sc.create(s);
         
-        _id.setText(String.valueOf(ss.getId()));
-        _name.setText(ss.getName());
-        _marks.setText(String.valueOf(ss.getMarks()));
-        _fees.setText(String.valueOf(ss.getFees()));
+//        _id.setText(String.valueOf(ss.getId()));
+//        _name.setText(ss.getName());
+//        _marks.setText(String.valueOf(ss.getMarks()));
+//        _fees.setText(String.valueOf(ss.getFees()));
         
-        System.out.println(ss);
+//        System.out.println(ss);
+        _textArea.setText(ss.toString());
     }//GEN-LAST:event_btnSaveActionPerformed
 
     private void _nameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event__nameActionPerformed

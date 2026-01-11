@@ -179,9 +179,6 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="_ID">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="3884"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="_IDActionPerformed"/>
       </Events>
@@ -205,9 +202,6 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="_lname">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Mou"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="_lnameActionPerformed"/>
       </Events>
@@ -218,9 +212,6 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="_fname">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Mousumi"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="_fnameActionPerformed"/>
       </Events>
@@ -231,9 +222,6 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="_desig">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="GM"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="_desigActionPerformed"/>
       </Events>
@@ -244,9 +232,6 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="_dept">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="HR"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel7">
       <Properties>
@@ -254,9 +239,6 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="_salary">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="55633224"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel8">
       <Properties>
@@ -269,17 +251,11 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="_address">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="12/C Tejgaon"/>
-      </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="_addressActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="_age1">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="29"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="a_id">
     </Component>
