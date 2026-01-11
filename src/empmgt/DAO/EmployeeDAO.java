@@ -12,6 +12,7 @@ import model.Employee;
  * @author Tultuli
  */
 public class EmployeeDAO {
+    
     public Employee insert(Employee e){
         return e;
     }

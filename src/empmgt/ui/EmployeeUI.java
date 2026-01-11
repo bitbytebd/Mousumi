@@ -127,6 +127,18 @@ public class EmployeeUI extends javax.swing.JFrame {
 
         _age1.setText("29");
 
+        a_age.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                a_ageActionPerformed(evt);
+            }
+        });
+
+        a_addr.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                a_addrActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -249,6 +261,8 @@ public class EmployeeUI extends javax.swing.JFrame {
 
     private void btnSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSaveActionPerformed
         System.out.println("HELLO ADVANCED JAVA");
+        
+        
        Employee e = new Employee();
            e.setId(Integer.valueOf(_ID.getText()));
            e.setLname(_lname.getText());
@@ -258,6 +272,8 @@ public class EmployeeUI extends javax.swing.JFrame {
            e.setSalary(Double.valueOf(_salary.getText()));
            e.setAge(Integer.valueOf(_age1.getText()));
            e.setAddr(_address.getText());
+           
+           
       
         EmployeeController ec = new EmployeeController();
           Employee emp = ec.create(e);
@@ -274,7 +290,7 @@ public class EmployeeUI extends javax.swing.JFrame {
          a_age.setText(String.valueOf(emp.getAge()));
          a_addr.setText(emp.getAddr());
 
-
+        System.out.println(emp);
    
     }//GEN-LAST:event_btnSaveActionPerformed
 
@@ -293,6 +309,14 @@ public class EmployeeUI extends javax.swing.JFrame {
     private void _desigActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event__desigActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event__desigActionPerformed
+
+    private void a_ageActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a_ageActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_a_ageActionPerformed
+
+    private void a_addrActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a_addrActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_a_addrActionPerformed
 
     /**
      * @param args the command line arguments

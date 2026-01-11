@@ -294,8 +294,14 @@
     <Component class="javax.swing.JTextField" name="a_salary">
     </Component>
     <Component class="javax.swing.JTextField" name="a_age">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a_ageActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="a_addr">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a_addrActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>
