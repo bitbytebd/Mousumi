@@ -14,6 +14,7 @@ import java.util.Arrays;
 public class MultidimensionalArraySort {
     public static void main(String[] args) {
         int [][] arr = { {53, 12, 76}, {32, 94, 19}, {99, 21, 5} };
+        
          for (int[] row : arr) {
             Arrays.sort(row);
          }
